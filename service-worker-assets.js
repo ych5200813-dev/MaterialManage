@@ -1,24 +1,24 @@
 self.assetsManifest = {
-  "version": "lEi5gAd3",
+  "version": "QKVKiKEL",
   "assets": [
     {
       "hash": "sha256-QI0mv/3Fzdqugz5sFLofl68aHGzBtR+BazJQh+tJ0nE=",
       "url": "BlazorApp1.styles.css"
     },
     {
-      "hash": "sha256-WLwAO9wZ3QpFk4+GLbkm1h9hgxVu946hgOL1EWpTpCg=",
+      "hash": "sha256-iuT/4NepJHq1HjbWZ0Mnf+TzpdnVVjUPhUwPa1aBEVg=",
       "url": "_framework/BlazorApp1.wasm"
     },
     {
-      "hash": "sha256-OlXTqlS+nVOnC0+7+2YMEeqSwnZcZrrkX53ZCWEDT8c=",
+      "hash": "sha256-UOpsct7qN6AWthAJrqUpsvUp58N2R2yainYSCGYVoHQ=",
       "url": "_framework/Microsoft.AspNetCore.Components.Web.wasm"
     },
     {
-      "hash": "sha256-Ytvy8CoGTpQ8T9C6pUC1APPOYmuCm6rVpgWFTIGq8Sg=",
+      "hash": "sha256-47OMCKyVU86qxJxt07fuHDHDlqgU6yM8K/q4STNbo5U=",
       "url": "_framework/Microsoft.AspNetCore.Components.WebAssembly.wasm"
     },
     {
-      "hash": "sha256-7rXVKYLUY0rRqDcyoQJIciigDZkrkDuae+7lTAVL6Pk=",
+      "hash": "sha256-MVXvQ/2xybeT3jL6aM+Oj7Dq5dzIAmcp6jk10isM1VM=",
       "url": "_framework/Microsoft.AspNetCore.Components.wasm"
     },
     {
@@ -62,7 +62,7 @@ self.assetsManifest = {
       "url": "_framework/Microsoft.JSInterop.WebAssembly.wasm"
     },
     {
-      "hash": "sha256-Mbx/QupE3RJjBEideqDIyjZWlpWSQw5vHQMt9F7994E=",
+      "hash": "sha256-dCfhhn0WPGtR7LagoX4ucTomy/Cupczslb4IdQUj8JA=",
       "url": "_framework/Microsoft.JSInterop.wasm"
     },
     {
@@ -146,7 +146,7 @@ self.assetsManifest = {
       "url": "_framework/System.ObjectModel.wasm"
     },
     {
-      "hash": "sha256-VgB67IpKevnnOxfO9EGB2tS0Fkdzo82T9JcjYFyU+no=",
+      "hash": "sha256-KG/Yc9POitK3smYgoiYCM6l1/B0jvzsGV7Y4x1Etsfc=",
       "url": "_framework/System.Private.CoreLib.wasm"
     },
     {
@@ -206,7 +206,7 @@ self.assetsManifest = {
       "url": "_framework/System.wasm"
     },
     {
-      "hash": "sha256-+Qpu2BwwF71tLqYDGQGtTLuq+TCBwBlUbs18KthHQ4g=",
+      "hash": "sha256-iE81ZzmT2LS7UK0RXZezE7wxbNUTKTSulHIQzjc3nHM=",
       "url": "_framework/blazor.boot.json"
     },
     {
