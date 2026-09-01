@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>管材</title>
-    <base href="/MaterialManage/" />
+    <base href="/" />
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
@@ -14,19 +14,7 @@
     <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
     <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
 </head>
-<script>
-    window.downloadFileFromStream = async (fileName, contentStreamReference) => {
-        const arrayBuffer = await contentStreamReference.arrayBuffer();
-        const blob = new Blob([arrayBuffer]);
-        const url = URL.createObjectURL(blob);
-        const anchorElement = document.createElement('a');
-        anchorElement.href = url;
-        anchorElement.download = fileName ?? '';
-        anchorElement.click();
-        anchorElement.remove();
-        URL.revokeObjectURL(url);
-    }
-</script>
+
 <body>
     <div id="app">
         <svg class="loading-progress">
@@ -41,6 +29,21 @@
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
+
+    <!-- 所有的 JavaScript 函式與腳本統一放在 body 結尾處 -->
+    <script>
+        window.downloadFileFromStream = async (fileName, contentStreamReference) => {
+            const arrayBuffer = await contentStreamReference.arrayBuffer();
+            const blob = new Blob([arrayBuffer]);
+            const url = URL.createObjectURL(blob);
+            const anchorElement = document.createElement('a');
+            anchorElement.href = url;
+            anchorElement.download = fileName ?? '';
+            anchorElement.click();
+            anchorElement.remove();
+            URL.revokeObjectURL(url);
+        }
+    </script>
     <script src="_framework/blazor.webassembly.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>
 </body>
